@@ -1,0 +1,15 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+.card-container{
+    height: auto;
+    width: 200px;
+    background-color: #ffed4e;
+}
+h2{
+    margin: 20px;
+}
+p{
+    margin: 10px;
+}
