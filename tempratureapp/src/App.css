@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.temp{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+button {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.red{
+  background-color: red ;
+}
+.blue{
+  background-color: blue;
+}
