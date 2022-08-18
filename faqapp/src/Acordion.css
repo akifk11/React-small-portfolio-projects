@@ -1,0 +1,18 @@
+.acordion-container{
+    background-color: burlywood;
+    margin: 20px;
+    width: 70%;
+}
+.acordion-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.acordion-body {
+    height: 0;
+    overflow: hidden;
+}
+.acordion-body.show{
+    background-color: aquamarine;
+    height: auto;
+}
