@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03a9f4;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  height: 40%;
+  width: 40%;
+  background-color: #01547a;
+  padding: 30px;
+  border-radius: 20px;
+}
+.question-text{
+  padding: 20px;
+  color: aliceblue;
+  font-size: large;
+}
+.answer-list{
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+li{
+  width: 180px;
+  background-color: #03a9f4;
+  text-align: center;
+  padding: 10px;
+  color:aliceblue;
+  border-radius: 10px;
+}
+li:hover{
+  border: 2px solid #01547a;
+  cursor: pointer;
+}
