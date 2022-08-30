@@ -1,0 +1,23 @@
+
+.content-container{
+  width: 70%;
+  margin: 20px auto;
+}
+.content-container h3{
+  text-align: center;
+}
+.card{
+  height: 200px;
+  width: 200px;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+h1 img {
+  height: 100px;
+  width: 200px;
+}
